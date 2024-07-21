@@ -4,6 +4,7 @@ export const WhatsappBox = styled(Box)({
   position: "fixed",
   bottom: 20,
   left: 30,
+  zIndex: "999999"
 });
 
 export const FirstSection = styled(Box)({
