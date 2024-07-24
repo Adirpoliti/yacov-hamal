@@ -35,20 +35,19 @@ export default function Carousel() {
       >
         <StyledSwiperSlide>
           <img src="assets/images/hand.gif" alt="review" width={100} />
-            <ClientReviewBox>
-              <ClientReviewAuthor>מוטי מאיר</ClientReviewAuthor>
-              <ClientReviewText>
-                ממליץ מאוד. בחור אמין, ישר ועושה את העבודה בדיקנות רבה
-              </ClientReviewText>
-            </ClientReviewBox>
+          <ClientReviewBox>
+            <ClientReviewAuthor>מוטי מאיר</ClientReviewAuthor>
+            <ClientReviewText>
+            ממליץ מאוד בחור אמין וישר ועושה את העבודה בדיקנות רבה🙏🏽🙏🏽🙏🏽
+            </ClientReviewText>
+          </ClientReviewBox>
         </StyledSwiperSlide>
         <StyledSwiperSlide>
           <img src="assets/images/hand.gif" alt="review" width={100} />
           <ClientReviewBox>
-            <ClientReviewAuthor>מוטי מאיר</ClientReviewAuthor>
+            <ClientReviewAuthor>אתי אור יהודה</ClientReviewAuthor>
             <ClientReviewText>
-              לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית לורם איפסום
-              דולור סיט אמט, קונסקטורר אדיפיסינג אלית.
+              פניתי ליעקב כדי שיעזור לי עם המשכנתא בתקופה שהריבית עלתה והשתוללה. הוא הרכיב תמהיל שהתאים ליכולת והצרכים שלי. לאורך כל הדרך היה זמין עבורי לכל שאלה והתלבטות, הראה איכפתיות ומקצועיות.  מומלץ.
             </ClientReviewText>
           </ClientReviewBox>
         </StyledSwiperSlide>
