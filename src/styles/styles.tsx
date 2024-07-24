@@ -124,7 +124,7 @@ export const SecondSection = styled(Box)({
   "@media (max-width:600px)": {
     flexDirection: "column",
     gap: "0",
-    margin: "0",
+    margin: "1rem 0",
   },
 });
 
@@ -160,9 +160,9 @@ alignItems: "center",
 flexWrap: "wrap",
 textAlign: "center",
 flexDirection: "column",
-margin: "5rem 0",
+margin: "3rem 0",
 "@media (max-width:600px)": {
-  marginTop: "5rem"
+  margin: "2rem 0"
 }
 });
 
@@ -176,4 +176,23 @@ export const StyledDivider = styled(Divider)({
   width: "50vw",
   margin: "0 auto",
   backgroundColor: "#8a9296"
+})
+
+export const CreditBox = styled(Box)({
+  height: "1.5rem",
+  backgroundColor: "#f2f2f2",
+display: "flex",
+justifyContent: "center",
+alignItems: "center",
+})
+
+export const CreditText = styled(Typography)({
+  fontFamily: "inherit",
+  fontSize: ".8rem",
+  color: "#8a9296",
+  direction: "rtl",
+})
+
+export const SymbolSpan = styled("span")({
+  fontSize: "0.8rem"
 })

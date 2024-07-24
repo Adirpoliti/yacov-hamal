@@ -15,6 +15,9 @@ import {
   ClientsTitle,
   StyledDivider,
   ContactText,
+  CreditBox,
+  CreditText,
+  SymbolSpan,
 } from "./styles/styles";
 import { Box } from "@mui/material";
 import Carousel from "./Carousel";
@@ -87,6 +90,12 @@ function App() {
         <ClientsTitle>לקוחות ממליצים</ClientsTitle>
         <Carousel />
       </ThirdSection>
+
+      <CreditBox>
+        <CreditText>
+        <SymbolSpan>&copy; </SymbolSpan>נוצר על ידי צוות PRT
+        </CreditText>
+      </CreditBox>
     </>
   );
 }

@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export const StyledSwiper = styled(Swiper)({
   width: "75rem",
   height: "15rem",
-  marginBottom: "5rem",
   ".swiper-button-next, .swiper-button-prev": {
     color: "black",
     "@media (max-width:600px)": {
@@ -17,7 +16,10 @@ export const StyledSwiper = styled(Swiper)({
   },
   "@media (max-width:600px)": {
     width: "30rem",
-    height: "20rem",
+    height: "22rem",
+    ".swiper-pagination": {
+      bottom: 0
+    },
   },
 });
 
