@@ -1,11 +1,50 @@
-import { Box, styled, Typography } from "@mui/material";
+import { Height } from "@mui/icons-material";
+import { Box, Divider, styled, Typography } from "@mui/material";
 
 export const WhatsappBox = styled(Box)({
   position: "fixed",
+  cursor: "pointer",
   bottom: 20,
   left: 30,
-  zIndex: "999999"
+  zIndex: "9999",
+  borderRadius: "100px",
+  width: "8rem",
 });
+
+export const ContactText = styled("a")({
+  cursor: "pointer",
+  bottom: 70,
+  left: -10,
+  width: "8rem",
+  position: "relative",
+  display: "flex",
+  fontWeight: "bold",
+  ":before": {
+    content: "'צרו קשר עכשיו'",
+    position: "absolute",
+    background: "url('assets/images/whatsapp.png') white no-repeat",
+    backgroundPosition: "97%",
+    borderRadius: "1.7rem",
+    color: "black",
+    width: "8rem",
+    left: 0,
+    top: 0,
+    padding: "0.8rem 2rem 1.1rem 1rem",
+    boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+  },
+  ":after": {
+    content: "''",
+    position: "absolute",
+    borderStyle: "solid",
+    left: 30,
+    top: 50,
+    borderWidth: "20px 28px 11px 0px",
+    borderColor: "white transparent transparent transparent",
+    },
+  "@media (max-width:600px)": {
+    left: -20
+  }
+})
 
 export const FirstSection = styled(Box)({
   height: "100vh",
@@ -133,19 +172,8 @@ export const ClientsTitle = styled(Typography)({
   fontWeight: "bold",
 })
 
-export const ClientReviewBox = styled(Box)({
-  display: "flex",
-  flexDirection: "column",
-  width: "15rem",
-})
-
-export const ClientReviewAuthor = styled(Typography)({
-  fontWeight: "bold",
-  fontFamily: "inherit",
-  fontSize: "1.2rem",
-  direction: "rtl"
-})
-export const ClientReviewText = styled(Typography)({
-  direction: "rtl",
-  fontFamily: "inherit",
+export const StyledDivider = styled(Divider)({
+  width: "50vw",
+  margin: "0 auto",
+  backgroundColor: "#8a9296"
 })

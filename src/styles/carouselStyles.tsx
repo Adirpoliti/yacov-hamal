@@ -1,4 +1,5 @@
-import { styled } from "@mui/material";
+import { Height } from "@mui/icons-material";
+import { styled, Box, Typography } from "@mui/material";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export const StyledSwiper = styled(Swiper)({
@@ -18,11 +19,6 @@ export const StyledSwiper = styled(Swiper)({
     width: "30rem",
     height: "20rem",
   },
-  ".swiper-pagination-bullet": {
-    "@media (max-width:600px)": {
-        
-    }
-  }
 });
 
 export const StyledSwiperSlide = styled(SwiperSlide)({
@@ -36,4 +32,31 @@ export const StyledSwiperSlide = styled(SwiperSlide)({
   alignItems: "center",
   boxSizing: "border-box",
   padding: "5rem",
+  "@media (max-width:600px)": {
+    flexDirection: "column",
+    justifyContent: "center",
+    height: "100%"
+  }
 });
+
+export const ClientReviewBox = styled(Box)({
+  display: "flex",
+  flexDirection: "column",
+  width: "15rem",
+    "@media (max-width:600px)": {
+    flexDirection: "column",
+    justifyContent: "center",
+  }
+})
+
+export const ClientReviewAuthor = styled(Typography)({
+  fontWeight: "bold",
+  fontFamily: "inherit",
+  fontSize: "1.2rem",
+  direction: "rtl"
+})
+
+export const ClientReviewText = styled(Typography)({
+  direction: "rtl",
+  fontFamily: "inherit",
+})
