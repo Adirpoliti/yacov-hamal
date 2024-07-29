@@ -17,7 +17,7 @@ export default function Carousel() {
         slidesPerView={1}
         spaceBetween={30}
         breakpoints={{
-          600: {
+          1220: {
             slidesPerView: 2,
           },
         }}
@@ -38,7 +38,7 @@ export default function Carousel() {
           <ClientReviewBox>
             <ClientReviewAuthor>מוטי מאיר</ClientReviewAuthor>
             <ClientReviewText>
-            ממליץ מאוד בחור אמין וישר ועושה את העבודה בדיקנות רבה🙏🏽🙏🏽🙏🏽
+              ממליץ מאוד בחור אמין וישר ועושה את העבודה בדיקנות רבה🙏🏽🙏🏽🙏🏽
             </ClientReviewText>
           </ClientReviewBox>
         </StyledSwiperSlide>
@@ -47,7 +47,9 @@ export default function Carousel() {
           <ClientReviewBox>
             <ClientReviewAuthor>אתי אור יהודה</ClientReviewAuthor>
             <ClientReviewText>
-              פניתי ליעקב כדי שיעזור לי עם המשכנתא בתקופה שהריבית עלתה והשתוללה. הוא הרכיב תמהיל שהתאים ליכולת והצרכים שלי. לאורך כל הדרך היה זמין עבורי לכל שאלה והתלבטות, הראה איכפתיות ומקצועיות.  מומלץ.
+              פניתי ליעקב כדי שיעזור לי עם המשכנתא בתקופה שהריבית עלתה והשתוללה.
+              הוא הרכיב תמהיל שהתאים ליכולת והצרכים שלי. לאורך כל הדרך היה זמין
+              עבורי לכל שאלה והתלבטות, הראה איכפתיות ומקצועיות.  מומלץ.
             </ClientReviewText>
           </ClientReviewBox>
         </StyledSwiperSlide>
