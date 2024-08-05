@@ -26,12 +26,11 @@ function App() {
   return (
     <>
       <WhatsappBox>
-          <ContactText
-            target="_blank"
-            rel="noreferrer"
-            href="https://api.whatsapp.com/send?phone=9720506723621"
-          >
-          </ContactText>
+        <ContactText
+          target="_blank"
+          rel="noreferrer"
+          href="https://api.whatsapp.com/send?phone=9720506723621"
+        ></ContactText>
       </WhatsappBox>
       <FirstSection>
         <LogoBox>
@@ -42,13 +41,13 @@ function App() {
           <SubTitle>יועץ משכנתאות, מחזור ואיחוד הלוואות</SubTitle>
         </TextBox>
         <ArrowBox>
-          <a href="#secondSection">
+          <a href="#info">
             <img src="assets/images/arrow.png" alt="arrow" width={100} />
           </a>
         </ArrowBox>
       </FirstSection>
 
-      <SecondSection id="secondSection">
+      <SecondSection id="info">
         <FlexBoxItem>
           <img src="assets/images/discount-bag.gif" alt="loan" width={100} />
           <Box>
@@ -93,7 +92,7 @@ function App() {
 
       <CreditBox>
         <CreditText>
-        <SymbolSpan>&copy; </SymbolSpan>נוצר על ידי צוות PRT
+          <SymbolSpan>&copy; </SymbolSpan>נוצר על ידי צוות PRT
         </CreditText>
       </CreditBox>
     </>

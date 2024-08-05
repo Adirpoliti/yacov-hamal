@@ -17,7 +17,7 @@ export const StyledSwiper = styled(Swiper)({
     width: "20rem",
     height: "22rem",
     ".swiper-pagination": {
-      bottom: 0
+      bottom: 0,
     },
   },
 });
@@ -36,28 +36,28 @@ export const StyledSwiperSlide = styled(SwiperSlide)({
   "@media (max-width:1220px)": {
     flexDirection: "column",
     justifyContent: "center",
-    height: "100%"
-  }
+    height: "100%",
+  },
 });
 
 export const ClientReviewBox = styled(Box)({
   display: "flex",
   flexDirection: "column",
   width: "15rem",
-    "@media (max-width:1220px)": {
+  "@media (max-width:1220px)": {
     flexDirection: "column",
     justifyContent: "center",
-  }
-})
+  },
+});
 
 export const ClientReviewAuthor = styled(Typography)({
   fontWeight: "bold",
   fontFamily: "inherit",
   fontSize: "1.2rem",
-  direction: "rtl"
-})
+  direction: "rtl",
+});
 
 export const ClientReviewText = styled(Typography)({
   direction: "rtl",
   fontFamily: "inherit",
-})
+});

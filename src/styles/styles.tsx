@@ -39,11 +39,11 @@ export const ContactText = styled("a")({
     top: 50,
     borderWidth: "20px 28px 11px 0px",
     borderColor: "white transparent transparent transparent",
-    },
+  },
   "@media (max-width:600px)": {
-    left: -20
-  }
-})
+    left: -20,
+  },
+});
 
 export const FirstSection = styled(Box)({
   height: "100vh",
@@ -74,7 +74,7 @@ export const TextBox = styled(Box)({
   marginLeft: "20rem",
   "@media (max-width:600px)": {
     alignSelf: "center",
-    margin: "17rem 2rem 0 0"
+    margin: "17rem 2rem 0 0",
   },
 });
 
@@ -151,49 +151,49 @@ export const FlexboxText = styled("p")({
   fontFamily: "heebo",
   direction: "rtl",
   fontSize: "1.1rem",
-  width: "17rem"
+  width: "17rem",
 });
 
 export const ThirdSection = styled(Box)({
-display: "flex",
-justifyContent: "center",
-alignItems: "center",
-flexWrap: "wrap",
-textAlign: "center",
-flexDirection: "column",
-margin: "3rem 0",
-"@media (max-width:600px)": {
-  margin: "2rem 0"
-}
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  flexWrap: "wrap",
+  textAlign: "center",
+  flexDirection: "column",
+  margin: "3rem 0",
+  "@media (max-width:600px)": {
+    margin: "2rem 0",
+  },
 });
 
 export const ClientsTitle = styled(Typography)({
   fontSize: "2rem",
   fontFamily: "heebo",
   fontWeight: "bold",
-})
+});
 
 export const StyledDivider = styled(Divider)({
   width: "50vw",
   margin: "0 auto",
-  backgroundColor: "#8a9296"
-})
+  backgroundColor: "#8a9296",
+});
 
 export const CreditBox = styled(Box)({
   height: "1.5rem",
   backgroundColor: "#f8f8f8",
-display: "flex",
-justifyContent: "center",
-alignItems: "center",
-})
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+});
 
 export const CreditText = styled(Typography)({
   fontFamily: "inherit",
   fontSize: ".8rem",
   color: "#8a9296",
   direction: "rtl",
-})
+});
 
 export const SymbolSpan = styled("span")({
-  fontSize: "0.8rem"
-})
+  fontSize: "0.8rem",
+});
