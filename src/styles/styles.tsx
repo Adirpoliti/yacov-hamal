@@ -1,4 +1,3 @@
-import { Height } from "@mui/icons-material";
 import { Box, Divider, styled, Typography } from "@mui/material";
 
 export const WhatsappBox = styled(Box)({
@@ -74,8 +73,8 @@ export const TextBox = styled(Box)({
   justifySelf: "center",
   marginLeft: "20rem",
   "@media (max-width:600px)": {
-    marginLeft: "0",
-    marginRight: "1rem"
+    alignSelf: "center",
+    margin: "17rem 2rem 0 0"
   },
 });
 
@@ -86,6 +85,7 @@ export const Title = styled(Typography)({
   textShadow: "0px 0px 10px rgba(0,0,0,0.3)",
   "@media (max-width:600px)": {
     fontSize: "2.5rem",
+    textShadow: "3px 2px 3px rgba(0,0,0,0.7)",
   },
 });
 
@@ -95,6 +95,7 @@ export const SubTitle = styled(Typography)({
   fontWeight: "bold",
   textShadow: "0px 0px 10px rgba(0,0,0,0.3)",
   "@media (max-width:600px)": {
+    textShadow: "3px 2px 3px rgba(0,0,0,0.7)",
     fontSize: "1.5rem",
   },
 });
@@ -180,7 +181,7 @@ export const StyledDivider = styled(Divider)({
 
 export const CreditBox = styled(Box)({
   height: "1.5rem",
-  backgroundColor: "#f2f2f2",
+  backgroundColor: "#f8f8f8",
 display: "flex",
 justifyContent: "center",
 alignItems: "center",
