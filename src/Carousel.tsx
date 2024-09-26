@@ -36,9 +36,28 @@ export default function Carousel() {
         <StyledSwiperSlide>
           <img src="assets/images/hand.gif" alt="review" width={100} />
           <ClientReviewBox>
+            <ClientReviewAuthor>גיא רובין</ClientReviewAuthor>
+            <ClientReviewText>
+              הסתבכתי עם מספר הלוואות  ההוצאות עלו על ההכנסות ולא הצלחתי לגמור את החודש    פניתי ליעקב שיעשה לי סדר בבלאגן יעקב נלחם עליי בבנקים עד שהצליח לעשות לי איחוד הלוואות   מהחזר הלוואות של 14 אלף בחודש הוא הצליח להוריד ל 8200 אודות ליעקב אני מצליח לנהל את משק הבית
+            </ClientReviewText>
+          </ClientReviewBox>
+        </StyledSwiperSlide>
+        <StyledSwiperSlide>
+          <img src="assets/images/hand.gif" alt="review" width={100} />
+          <ClientReviewBox>
             <ClientReviewAuthor>מוטי מאיר</ClientReviewAuthor>
             <ClientReviewText>
               ממליץ מאוד בחור אמין וישר ועושה את העבודה בדיקנות רבה🙏🏽🙏🏽🙏🏽
+            </ClientReviewText>
+          </ClientReviewBox>
+        </StyledSwiperSlide>
+        <StyledSwiperSlide>
+          <img src="assets/images/hand.gif" alt="review" width={100} />
+          <ClientReviewBox>
+            <ClientReviewAuthor>איציק תורגמן</ClientReviewAuthor>
+            <ClientReviewText>
+              הייתי צריך למחזר משכנתה ההוצאות הכבידו עלינו פניתי ליעקב  שיעזור לנו.
+              יעקב נלחם בבנקים והצליח להוריד את ההחזר אנחנו מאוד מרוצים מהשרות שיעקב נתן הוא יסודי ואיכפתי
             </ClientReviewText>
           </ClientReviewBox>
         </StyledSwiperSlide>
